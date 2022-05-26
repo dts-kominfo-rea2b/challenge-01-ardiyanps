@@ -1,22 +1,24 @@
 // TODO: Buatlah data dari kedua user di sini
 // Tentukan tipe data dan struktur data yang menurut kalian tepat
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
+firstUser = {};
+secondUser = {};
 
-const firstUser = new Object();
-firstUser.name = "Monica";
-firstUser.gender = "Female";
-firstUser.age = 17;
-firstUser.email = "monica@dingdong.com";
+const userMonica = new Object();
+userMonica.name = "Monica";
+userMonica.gender = "Female";
+userMonica.age = 17;
+userMonica.email = "monica@dingdong.com";
 
-firstUser.favoriteColor = new Set();
-firstUser.favoriteColor.add("Yellow");
-firstUser.favoriteColor.add("Pink");
-firstUser.favoriteColor.add("White");
-firstUser.favoriteColor.add("Purple");
+userMonica.favoriteColor = new Set();
+userMonica.favoriteColor.add("Yellow");
+userMonica.favoriteColor.add("Pink");
+userMonica.favoriteColor.add("White");
+userMonica.favoriteColor.add("Purple");
 
-firstUser.isHavePet = true;
+userMonica.isHavePet = true;
 
-firstUser.education = [];
+userMonica.education = [];
 let sd = new Map();
 sd.set("name", "SD 01");
 sd.set("city", "Jakarta");
@@ -33,38 +35,38 @@ let uni = new Map();
 uni.set("name", );
 uni.set("city", );
 uni.set("graduate", );
-firstUser.education.push(sd);
-firstUser.education.push(smp);
-firstUser.education.push(sma);
-firstUser.education.push(uni);
+userMonica.education.push(sd);
+userMonica.education.push(smp);
+userMonica.education.push(sma);
+userMonica.education.push(uni);
 
-firstUser.favoriteRestaurant = new Set();
-firstUser.favoriteRestaurant.add("Bento");
-firstUser.favoriteRestaurant.add("Sushi");
-firstUser.favoriteRestaurant.add("Pancake");
-firstUser.favoriteRestaurant.add("Eggy");
-firstUser.favoriteRestaurant.add("Tempura");
-firstUser.favoriteRestaurant.add("Bento");
-firstUser.favoriteRestaurant.add("Eggy");
-firstUser.favoriteRestaurant.add("Padang");
-firstUser.favoriteRestaurant.add("Tteok");
-firstUser.favoriteRestaurant.add("Sushi");
-firstUser.favoriteRestaurant.add("Sushi");
+userMonica.favoriteRestaurant = new Set();
+userMonica.favoriteRestaurant.add("Bento");
+userMonica.favoriteRestaurant.add("Sushi");
+userMonica.favoriteRestaurant.add("Pancake");
+userMonica.favoriteRestaurant.add("Eggy");
+userMonica.favoriteRestaurant.add("Tempura");
+userMonica.favoriteRestaurant.add("Bento");
+userMonica.favoriteRestaurant.add("Eggy");
+userMonica.favoriteRestaurant.add("Padang");
+userMonica.favoriteRestaurant.add("Tteok");
+userMonica.favoriteRestaurant.add("Sushi");
+userMonica.favoriteRestaurant.add("Sushi");
 
-const secondUser = new Object();
-secondUser.name = "Wendy";
-secondUser.gender = "Male";
-secondUser.age = 23;
-secondUser.email = "wendy@dingdong.com";
+const userWendy = new Object();
+userWendy.name = "Wendy";
+userWendy.gender = "Male";
+userWendy.age = 23;
+userWendy.email = "wendy@dingdong.com";
 
-secondUser.favoriteColor = new Set();
-secondUser.favoriteColor.add("Blue");
-secondUser.favoriteColor.add("Black");
-secondUser.favoriteColor.add("Grey");
+userWendy.favoriteColor = new Set();
+userWendy.favoriteColor.add("Blue");
+userWendy.favoriteColor.add("Black");
+userWendy.favoriteColor.add("Grey");
 
-secondUser.isHavePet = false;
+userWendy.isHavePet = false;
 
-secondUser.education = [];
+userWendy.education = [];
 let sd2 = new Map();
 sd2.set("name", "SD 02");
 sd2.set("city", "Jakarta");
@@ -81,21 +83,24 @@ let uni2 = new Map();
 uni2.set("name", "Universitas Maju");
 uni2.set("city", "Tanggerang");
 uni2.set("graduate", );
-secondUser.education.push(sd2);
-secondUser.education.push(smp2);
-secondUser.education.push(sma2);
-secondUser.education.push(uni2);
+userWendy.education.push(sd2);
+userWendy.education.push(smp2);
+userWendy.education.push(sma2);
+userWendy.education.push(uni2);
 
-secondUser.favoriteRestaurant = new Set();
-secondUser.favoriteRestaurant.add("Tempura");
-secondUser.favoriteRestaurant.add("Bento");
-secondUser.favoriteRestaurant.add("Sushi");
-secondUser.favoriteRestaurant.add("Pancake");
-secondUser.favoriteRestaurant.add("Padang");
-secondUser.favoriteRestaurant.add("Katsu");
-secondUser.favoriteRestaurant.add("Geprek");
-secondUser.favoriteRestaurant.add("Pancake");
-secondUser.favoriteRestaurant.add("Eggy");
+userWendy.favoriteRestaurant = new Set();
+userWendy.favoriteRestaurant.add("Tempura");
+userWendy.favoriteRestaurant.add("Bento");
+userWendy.favoriteRestaurant.add("Sushi");
+userWendy.favoriteRestaurant.add("Pancake");
+userWendy.favoriteRestaurant.add("Padang");
+userWendy.favoriteRestaurant.add("Katsu");
+userWendy.favoriteRestaurant.add("Geprek");
+userWendy.favoriteRestaurant.add("Pancake");
+userWendy.favoriteRestaurant.add("Eggy");
+
+firstUser = userMonica;
+secondUser = userWendy;
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
 const users = [];
